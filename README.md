@@ -8,9 +8,9 @@ You can see this limitation on this page : [here](https://blogs.technet.microsof
 
 To run this script on client computers, i'm using this simple launch cmd.
 
-{% highlight powershell %}
+```powershell
 powershell.exe -ExecutionPolicy bypass -File .\path\install.ps1
-{% endhighlight %}
+```
 
 The idea was to read and replace the line with `SourcePath="Path"` with the current dir. Quick and Dirty.
 
